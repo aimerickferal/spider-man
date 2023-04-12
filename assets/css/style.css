@@ -22,9 +22,6 @@
 
 body {
   margin: 0;
-  font-size: 16px;
-  font-family: "Times New Roman", Times, serif;
-  text-align: left;
   background-color: var(--yellow);
 }
 
@@ -47,7 +44,7 @@ body {
     align-items: center;
     width: 17em;
     height: 17em;
-    /* border: solid 0.1em; */
+    /* border: solid 1.6px; */
   }
 
   .square_border-color_red {
@@ -57,7 +54,7 @@ body {
   .rope {
     position: absolute;
     top: 0%;
-    width: 0.1em;
+    width: 1.6px;
     height: 35%;
     animation: swing 2s infinite;
   }
@@ -77,9 +74,9 @@ body {
     transform: translateX(-50%);
     top: 91%;
     left: 50%;
-    width: 7.5em;
-    height: 1em;
-    border-radius: 2.5em;
+    width: 120px;
+    height: 16px;
+    border-radius: 40px;
   }
 
   .legs_background_color_transparent {
@@ -87,17 +84,17 @@ body {
   }
 
   .legs_box-shadow {
-    box-shadow: 0 0 0 0.12em var(--blue), 0 0 0 1.06em var(--blue),
-      0 0 0 1.18em var(--blue);
+    box-shadow: 0 0 0 1.92px var(--blue), 0 0 0 16.96px var(--blue),
+      0 0 0 18.88px var(--blue);
   }
 
   .boot-left,
   .boot-right {
     position: absolute;
-    bottom: 96%;
-    width: 2.5em;
-    height: 1.25em;
-    border: solid 0.1em;
+    bottom: 15px;
+    width: 40px;
+    height: 20px;
+    border: solid 1.6px;
   }
 
   .boot_background-color_red {
@@ -109,12 +106,12 @@ body {
   }
 
   .boot-left {
-    left: 1.18em;
+    left: 19px;
   }
 
   .boot-right {
     transform: rotateY(180deg);
-    left: 3.8em;
+    left: 61px;
   }
 
   .boot-left::before,
@@ -123,10 +120,10 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    bottom: 1.15em;
-    left: 1.4em;
-    border-bottom: solid 1em;
-    border-left: solid 1em;
+    bottom: 18.5px;
+    left: 22.5px;
+    border-bottom: solid 16px;
+    border-left: solid 16px;
   }
 
   .boot_border-bottom_color_blue::before {
@@ -143,10 +140,10 @@ body {
     position: absolute;
     width: 0;
     height: 0;
-    top: -0.9em;
+    top: -14.5px;
     right: 0;
-    border-bottom: solid 1em;
-    border-left: solid 1em;
+    border-bottom: solid 16px;
+    border-left: solid 16px;
   }
 
   .boot_border-bottom_color_red::after {
@@ -159,10 +156,10 @@ body {
 
   .costume {
     position: absolute;
-    width: 5.5em;
-    height: 6em;
-    top: 18em;
-    left: -2.5em;
+    width: 88px;
+    height: 96px;
+    top: 288px;
+    left: -40px;
     background: linear-gradient(
       to right,
       var(--blue) 20%,
@@ -170,7 +167,7 @@ body {
       var(--red) 80%,
       var(--blue) 80%
     );
-    border: solid 0.1em;
+    border: solid 1.6px;
   }
 
   .costume_border-color_blue {
@@ -180,10 +177,10 @@ body {
   .spider {
     position: absolute;
     transform: translate(-50%, -50%);
-    top: calc(50% + 1em);
+    top: calc(50% + 16px);
     left: 50%;
-    width: 01em;
-    height: 1.8em;
+    width: 16px;
+    height: 29px;
     border-radius: 45%;
   }
 
@@ -197,10 +194,10 @@ body {
   .s4 {
     position: absolute;
     left: 50%;
-    width: 2em;
-    height: 2.5em;
-    border-radius: 0 0 2em 2em;
-    border-bottom: solid 0.1em;
+    width: 32px;
+    height: 40px;
+    border-radius: 0 0 32px 32px;
+    border-bottom: solid 1.6px;
   }
 
   .s1,
@@ -215,19 +212,19 @@ body {
   }
 
   .s1 {
-    bottom: 1.5em;
+    bottom: 24px;
   }
 
   .s2 {
-    bottom: 1em;
+    bottom: 16px;
   }
 
   .s3 {
-    top: 1.5em;
+    top: 24px;
   }
 
   .s4 {
-    top: 1em;
+    top: 16px;
   }
 
   .s_border-bottom-color_blue {
@@ -236,12 +233,12 @@ body {
 
   .belt {
     position: absolute;
-    top: -0.15em;
+    top: -2.4px;
     transform: translateX(-50%);
     left: 50%;
-    width: 5.5em;
-    height: 0.5em;
-    border: solid 0.1em;
+    width: 88px;
+    height: 8px;
+    border: solid 1.6px;
   }
 
   .belt_background-color_red {
@@ -256,18 +253,18 @@ body {
   .hand-right {
     position: absolute;
     transform-origin: bottom;
-    bottom: -0.15em;
-    width: 1em;
-    height: 8em;
+    bottom: -2.4px;
+    width: 16px;
+    height: 128px;
     background: linear-gradient(
-      var(--red) 4.6em,
-      var(--blue) 4.6em,
-      var(--blue) 4.75em,
-      var(--blue) 4.75em,
-      var(--blue) 8.12em
+      var(--red) 74px,
+      var(--blue) 74px,
+      var(--blue) 76px,
+      var(--blue) 76px,
+      var(--blue) 130px
     );
-    border: solid 0.1em;
-    border-radius: 1.25em;
+    border: solid 1.6px;
+    border-radius: 20px;
   }
 
   .hand-left {
@@ -288,10 +285,10 @@ body {
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    bottom: -6%;
-    width: 1.25em;
-    height: 0.3em;
-    border: solid 0.1em;
+    top: 100%;
+    width: 20px;
+    height: 4.8px;
+    border: solid 1.6px;
   }
 
   .neck_background-color_red {
@@ -307,9 +304,9 @@ body {
     transform: translateX(-50%);
     top: 105%;
     left: 50%;
-    width: 4em;
-    height: 4.5em;
-    border: solid 0.1em;
+    width: 64px;
+    height: 72px;
+    border: solid 1.6px;
     border-radius: 50% 50% 50% 50% / 54% 54% 54% 54%;
   }
 
@@ -325,10 +322,10 @@ body {
   .eye-right {
     position: absolute;
     top: 50%;
-    width: 1.25em;
-    height: 0.8em;
-    border: solid 0.1em;
-    border-radius: 1em 1em 0 0;
+    width: 20px;
+    height: 12.8px;
+    border: solid 1.6px;
+    border-radius: 16px 16px 0 0;
   }
 
   .eye-left {
@@ -358,7 +355,7 @@ body {
   }
 
   .costume {
-    top: 19em;
+    top: 304px;
   }
 }
 
@@ -372,7 +369,7 @@ body {
   }
 
   .costume {
-    top: 20em;
+    top: 320px;
   }
 }
 
@@ -386,7 +383,7 @@ body {
   }
 
   .costume {
-    top: 22.5em;
+    top: 360px;
   }
 }
 
@@ -400,6 +397,6 @@ body {
   }
 
   .costume {
-    top: 20.5em;
+    top: 328px;
   }
 }
