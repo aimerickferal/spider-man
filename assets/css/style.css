@@ -59,11 +59,11 @@ body {
     animation: swing 2s infinite;
   }
 
-  @keyframes swing {
+  /* @keyframes swing {
     50% {
       transform: translateY(-25%);
     }
-  }
+  } */
 
   .rope_background-color_white {
     background-color: var(--white);
@@ -284,8 +284,8 @@ body {
   .neck {
     position: absolute;
     transform: translateX(-50%);
+    top: 101%;
     left: 50%;
-    top: 100%;
     width: 20px;
     height: 4.8px;
     border: solid 1.6px;
