@@ -59,11 +59,11 @@ body {
     animation: swing 2s infinite;
   }
 
-  /* @keyframes swing {
+  @keyframes swing {
     50% {
       transform: translateY(-25%);
     }
-  } */
+  }
 
   .rope_background-color_white {
     background-color: var(--white);
