@@ -126,11 +126,11 @@ body {
     border-left: solid 16px;
   }
 
-  .boot_border-bottom_color_blue::before {
+  .boot_border-bottom-color_blue::before {
     border-bottom-color: var(--blue);
   }
 
-  .boot_border-left_color_transparent::before {
+  .boot_border-left-color_transparent::before {
     border-left-color: transparent;
   }
 
@@ -146,11 +146,11 @@ body {
     border-left: solid 16px;
   }
 
-  .boot_border-bottom_color_red::after {
+  .boot_border-bottom-color_red::after {
     border-bottom-color: var(--red);
   }
 
-  .boot_border-left_color_transparent::after {
+  .boot_border-left-color_transparent::after {
     border-left-color: transparent;
   }
 
