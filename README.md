@@ -1,6 +1,6 @@
 # **Spider-Man**
 
-The **Spider-Man** project is a simple CSS animation of your friendly neighborhood Spider-Man.
+The **Spider-Man** project is a CSS animation of your friendly neighborhood Spider-Man.
 
 ## **Setup**
 
@@ -8,7 +8,7 @@ The **Spider-Man** project is a simple CSS animation of your friendly neighborho
 - CSS 3
 - JavaScript ECMAScript 2020
 
-To use the projet you have to follow this steps:
+To use the projet follows these steps:
 
 - Git clone the `dev` branch of the repository
 - Go to the `template` folder
