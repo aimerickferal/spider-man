@@ -37,20 +37,6 @@ body {
     height: 80vh;
   }
 
-  .square {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    width: 17em;
-    height: 17em;
-    /* border: solid 1.6px; */
-  }
-
-  .square_border-color_red {
-    border-color: var(--red);
-  }
-
   .rope {
     position: absolute;
     top: 0%;
